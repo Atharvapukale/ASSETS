@@ -1,0 +1,22 @@
+/project-folder
+   /assets
+      /videos
+         - video1.mp4
+         - video2.mp4
+      /thumbnails
+         - thumbnail1.png
+         - thumbnail2.png
+      /overlays
+         - overlay1.png
+         - overlay2.png
+      /pngs
+         - png1.png
+         - png2.png
+   index.html         (Homepage)
+   videos.html        (Video download page)
+   thumbnails.html     (Thumbnail download page)
+   overlays.html       (Overlay download page)
+   pngs.html           (PNG download page)
+   support.html        (Support page)
+   style.css          (CSS styles)
+   script.js          (JavaScript for functionality)

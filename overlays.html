@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlays | Video and Asset Downloads</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <header>
+        <h1>Overlay Downloads</h1>
+        <div class="button-container">
+            <button type="button" class="animated-button btn" onclick="window.location.href='index.html'">
+              <strong>HOME</strong>
+              <div id="container-stars">
+                <div id="stars"></div>
+              </div>
+              <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </button>
+            
+            <button type="button" class="animated-button btn" onclick="window.location.href='videos.html'">
+              <strong>VIDEO ASSETS</strong>
+              <div id="container-stars">
+                <div id="stars"></div>
+              </div>
+              <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </button>
+          
+            <button type="button" class="animated-button btn" onclick="window.location.href='thumbnails.html'">
+              <strong>THUMBNAILS</strong>
+              <div id="container-stars">
+                <div id="stars"></div>
+              </div>
+              <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </button>
+          
+            <button type="button" class="animated-button btn" onclick="window.location.href='overlays.html'">
+              <strong>OVERLAYS</strong>
+              <div id="container-stars">
+                <div id="stars"></div>
+              </div>
+              <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </button>
+          
+            <button type="button" class="animated-button btn" onclick="window.location.href='pngs.html'">
+              <strong>PNGs</strong>
+              <div id="container-stars">
+                <div id="stars"></div>
+              </div>
+              <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </button>
+          
+            <button type="button" class="animated-button btn" onclick="window.location.href='support.html'">
+              <strong>SUPPORT</strong>
+              <div id="container-stars">
+                <div id="stars"></div>
+              </div>
+              <div id="glow">
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </button>
+          </div>
+    </header>
+    <main>
+        <h2>Available Overlays</h2>
+        <div class="asset-container">
+            <div class="asset-card">
+                <h3>Overlay 1</h3>
+                <img src="assets/overlays/overlay1.png" alt="Overlay 1" width="320" height="240">
+                <button class="download-btn" data-file="assets/overlays/overlay1.png">Download Overlay 1</button>
+            </div>
+            <div class="asset-card">
+                <h3>Overlay 2</h3>
+                <img src="assets/overlays/overlay2.png" alt="Overlay 2" width="320" height="240">
+                <button class="download-btn" data-file="assets/overlays/overlay2.png">Download Overlay 2</button>
+            </div>
+        </div>
+    </main>
+    <div class="video-background">
+      <video autoplay muted loop id="bg-video">
+        <source src="BACKGROUND.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="logo">
+      <img src="NEXA_20241106_142116_0000.png" alt="logo png">
+  </div>
+
+</body>
+</html>
